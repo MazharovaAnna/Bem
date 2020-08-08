@@ -1,1 +1,1 @@
-https://mazharovaanna.github.io/Bem/.
+https://mazharovaanna.github.io/Bem/ .
