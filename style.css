@@ -218,7 +218,7 @@ p {
 /*input
 ===================*/
 .input__items {
-  width: 50%;
+  /* width: 50%; */
   display: flex;
   flex-wrap: wrap;
 }
@@ -405,14 +405,11 @@ p {
   .contacts__inner {
     padding-top: 30px;
   }
-  .input__items{
-    
-  }
   .input__col {
     width: 100%;
     padding-bottom: 20px;
   }
-  .input__massege{
+  .input__massege {
     width: 300px;
   }
 }
