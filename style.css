@@ -77,14 +77,26 @@ p {
   color: #fff;
   margin: 180px 0 240px 0;
 }
+.btn--white:hover{
+  border: 1px solid #76b2f4;
+  color: #76b2f4;
+}
 .btn--black {
   color: #000;
   border: 1px solid #000;
+}
+.btn--black:hover{
+  border: 1px solid #ada074;
+  color: #ada074;
 }
 .btn-transparent {
   color: #000;
   font-size: 14px;
   font-weight: 400;
+}
+.btn-transparent:hover{
+  border: 1px solid #000;
+  color: #000;
 }
 /*nav
 ===================*/
@@ -100,6 +112,9 @@ p {
   font-size: 15px;
   text-decoration: none;
   color: #3c3c3c;
+}
+.nav__link:hover{
+  color: #ada074;
 }
 .nav__link--active {
   color: #ada074;
