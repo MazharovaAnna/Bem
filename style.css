@@ -376,6 +376,11 @@ p {
   }
 }
 @media (max-width: 400px) {
+  /*nav
+ ===================*/
+ .intro{
+   padding-top: 45px;
+ }
    /*nav
  ===================*/
  .about{
