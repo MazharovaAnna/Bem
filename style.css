@@ -220,6 +220,7 @@ p {
 .input__items {
   width: 50%;
   display: flex;
+  flex-wrap: wrap;
 }
 .input__col {
   padding-right: 60px;
@@ -378,14 +379,14 @@ p {
 @media (max-width: 400px) {
   /*nav
  ===================*/
- .intro{
-   padding-top: 45px;
- }
-   /*nav
+  .intro {
+    padding-top: 45px;
+  }
+  /*nav
  ===================*/
- .about{
-   padding-top: 50px;
- }
+  .about {
+    padding-top: 50px;
+  }
   /*nav
  ===================*/
   .nav__link {
@@ -399,10 +400,19 @@ p {
   .portfolio__items {
     padding-top: 40px;
   }
-  /*partners
+  /*contacts
  ===================*/
   .contacts__inner {
-    padding-top: 35px;
-
+    padding-top: 30px;
+  }
+  .input__items{
+    
+  }
+  .input__col {
+    width: 100%;
+    padding-bottom: 20px;
+  }
+  .input__massege{
+    width: 300px;
   }
 }
