@@ -370,3 +370,17 @@ padding-bottom: 20px;
     width: 90%;
   }
 }
+@media (max-width: 400px){
+  /*nav
+ ===================*/
+  .nav__link{
+    padding: 0 10px;
+
+  }
+  /*partners
+ ===================*/
+ .partners__icon {
+  padding: 0 15px;
+}
+}
+}
