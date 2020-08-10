@@ -36,7 +36,7 @@ p {
 .intro {
   margin: 0 auto;
   /* padding-top: 128px; */
-  padding-top: 60px;
+  padding-top: 50px;
 
   background: url(./img/intro.png) center no-repeat;
   text-align: center;
@@ -386,9 +386,12 @@ p {
   .partners__icon {
     padding: 0 15px;
   }
-.input__items{
-  
-
-}
-
+  .portfolio__items {
+    padding-top: 40px;
+  }
+  /*partners
+ ===================*/
+  .contacts__inner {
+    flex: none;
+  }
 }
