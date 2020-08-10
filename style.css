@@ -75,6 +75,11 @@ p {
   color: #000;
   border: 1px solid #000;
 }
+.btn-transparent {
+  color: #000;
+  font-size: 14px;
+  font-weight: 400;
+}
 /*nav
 ===================*/
 .nav {
@@ -159,7 +164,6 @@ p {
 ===================*/
 .portfolio {
   background-color: #f3f3f3;
-  
 }
 .portfolio__items {
   padding-top: 140px;
@@ -185,18 +189,126 @@ p {
 .partners__title {
   font-size: 30px;
   color: #fff;
- padding-top: 50px;
+  padding-top: 50px;
   text-align: center;
 }
 .partners__item {
   display: flex;
   justify-content: center;
-  padding: 50px 0 355px 0;
+  align-items: center;
+  padding: 50px 0;
 }
 .partners__icon {
-  
   padding: 0 50px;
-
+}
+/*contacts
+===================*/
+.contacts__inner {
+  padding-top: 95px;
+  display: flex;
+}
+.contacts__input {
+}
+/*input
+===================*/
+.input__items {
+  width: 50%;
+  display: flex;
+}
+.input__col {
+  padding-right: 60px;
+}
+.input__name-text {
+  padding-bottom: 20px;
+  font-size: 14px;
+  text-transform: uppercase;
+}
+.input__text {
+  padding: 10px 10px;
+  background-color: #f8f7f7;
+  border: 0px solid;
+  border-top: 1px solid #000;
+  outline: none;
+  resize: none;
+}
+.input__subscribe {
+  padding: 70px 70px 0 0;
+}
+.input__massege-text {
+  padding-bottom: 20px;
+  font-size: 14px;
+  text-transform: uppercase;
+}
+.input__massege {
+  padding: 10px 10px;
+  background-color: #f8f7f7;
+  border: 0px solid;
+  border-top: 1px solid #000;
+  outline: none;
+  resize: none;
+}
+.contacts__help {
+  width: 50%;
+}
+.contacts__inf {
+  font-weight: 400;
+  padding-bottom: 40px;
+  line-height: 1.7;
+}
+.contacts__name {
+  font-weight: 700;
+  padding-bottom: 25px;
+}
+.contacts__networks {
+  display: flex;
+}
+.facebook {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 30px;
+  height: 30px;
+  border: 1px solid #000;
+  border-radius: 50%;
+  margin: 0 8px 0 0;
+}
+.linkedin {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 30px;
+  height: 30px;
+  border: 1px solid #000;
+  border-radius: 50%;
+}
+.contacts__address {
+  padding-top: 20px;
+  font-weight: 700;
+}
+.contacts__add {
+  font-weight: 400;
+}
+/*footer
+===================*/
+.footer {
+  background-color: #3c3c3c;
+  padding: 50px 0;
+  text-align: center;
+}
+.footer__img {
+}
+.footer__networks {
+  display: flex;
+  justify-content: center;
+  padding: 45px 0 35px 0;
+}
+.net {
+  margin: 0 10px;
+  color: #a4a4a4;
+}
+.footer__protection {
+  font-size: 14px;
+  color: #6c6c6c;
 }
 
 /*@media
@@ -209,6 +321,29 @@ p {
 }
 
 @media (max-width: 990px) {
+  /*contacts
+===================*/
+  .contacts__inner {
+    display: flex;
+    flex-wrap: wrap;
+  }
+.contacts__input{
+  width: 100%;
+  margin: 0 auto;
+}
+.contacts__help{
+  width: 100%;
+}
+.contacts__inf{
+padding-bottom: 20px;
+}
+/*input
+===================*/
+
+.input__subscribe{
+  padding: 35px 35px 10px 0;
+}
+
 }
 @media (max-width: 770px) {
   /*about
